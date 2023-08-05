@@ -1,0 +1,142 @@
+body{
+  text-align: center;
+}
+
+p{
+  font-size: 55px;
+}
+
+button{
+  display: inline-block;
+  padding: 15px 35px;
+  margin: 10px;
+  font-size: 45px;
+}
+
+input{
+  height: 15px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+label{
+  font-size:x-large;
+}
+#form{
+  width: 900px;
+  background-color: antiquewhite;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#Title{
+  font-size: 45px;
+  
+}
+
+#search{
+  width: 300px;
+  border-radius:20px;
+  border: gray;
+  margin-bottom: 25px;
+}
+
+#noteInput{
+  width: 800px;
+  height: 280px;
+  background-color: whitesmoke;
+  margin: auto;
+  position: relative;
+  border-radius: 15px;
+}
+
+#mainInput{
+  border: none;
+  border-radius: 10px;
+  width: 750px;
+  height: 180px;
+  margin-top: 15px;
+  padding: 15px 15px;
+}
+
+.color{
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  display: inline-block;
+  margin: 5px;
+  border-radius:20px;
+}
+
+.color-pink{
+  background-color:pink;
+}
+.color-purple{
+  background-color: plum;
+}
+.color-yellow{
+  background-color: yellow;
+}
+.color-blue{
+  background-color: #9fd3c7;
+}
+.color-green{
+  background-color: #e0ffcd;
+}
+
+.colors{
+  position: absolute;
+  left: 15px;
+  bottom: 7px;
+
+}
+
+#addButton{
+  position: absolute;
+  right: 15px;
+  bottom: 0;
+  width: 90px;
+  height: 30px;
+  font-size:large;
+  text-align: center;
+  line-height: 0px;
+  border-radius: 15px;
+  border-color: #2c2d34;
+}
+
+.items{
+  display: inline-block;
+  width: 380px;
+  margin: 10px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden; 
+  white-space: normal;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  max-width: 380px;
+  padding: 10px;
+}
+
+ul{
+  padding: 0;
+}
+
+.notes{
+  width: 950px;
+  border-radius: 10px;
+  background-color: rgb(221, 217, 207);
+  margin-left: -75px;
+}
+
+li{
+  cursor: pointer;
+}
+
+ul li:first-child{
+  margin-top: 30px;
+}
+
