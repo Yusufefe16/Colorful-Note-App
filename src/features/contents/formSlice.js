@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  count: 0,
   items: [
     {
       id: "MQCIBO_XgK7Yua857PlQp",
@@ -31,18 +30,6 @@ export const counterSlice = createSlice({
   name: "form",
   initialState,
   reducers: {
-    increment: (state) => {
-      state.count += 1;
-    },
-    decrement: (state) => {
-      state.count -= 1;
-    },
-    reset: (state) => {
-      state.count = 0;
-    },
-    incrementByAmount: (state, actions) => {
-      state.count += actions.payload;
-    },
     addItem: (state, action) => {
       state.items.push(action.payload);
     },
@@ -53,7 +40,7 @@ export const counterSlice = createSlice({
   },
 });
 
-export const { increment, decrement, reset, incrementByAmount,addItem,setSearch   } =
+export const {  addItem,setSearch   } =
   counterSlice.actions;
 
 export default counterSlice.reducer;
