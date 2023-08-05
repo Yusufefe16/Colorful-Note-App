@@ -1,3 +1,8 @@
+![colorful-note-app](https://github.com/Yusufefe16/Colorful-Note-App/assets/90358311/1d32d6ba-44bd-4619-90c1-db5cc5896a93)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
